@@ -2,7 +2,7 @@ sudo apt install wget -y
 openvpn_port="1194"
 upstream_port="443"
 upstream_ip="127.0.0.1"
-fake_tls_sni="btkakademi.gov.tr"
+fake_tls_sni="www.btkakademi.gov.tr"
 read -rp "OpenVpn Port (Default : $openvpn_port) : " -e -i "$openvpn_port" openvpn_port
 read -rp "Upstream Port (Default : $upstream_port) : " -e -i "$upstream_port" upstream_port
 read -rp "Upstream IP : " -e -i "$upstream_ip" upstream_ip
