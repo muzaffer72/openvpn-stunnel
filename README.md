@@ -18,7 +18,7 @@ apt update && apt install -y curl && bash <(curl -Ls https://raw.githubuserconte
 1 - Copy And Run command below
 <br>
 ```
-apt update && apt install sudo -y && apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/NixDeveeloper/openvpn-with-stunnel/master/bridge.sh)
+apt update && apt install sudo -y && apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/muzaffer72/openvpn-stunnel/main/bridge.sh)
 ```
 
 ## Initialize Config File ##
